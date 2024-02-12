@@ -29,7 +29,7 @@ RMAKE = "$(MAKE)"
 # To Unix, it looks like ..:$(CLASSPATH):JUNK and to Windows like
 # JUNK;..;$(CLASSPATH).
 
-LIB = ../../library-sp21/javalib/*
+LIB = ../../javalib/*
 
 
 CPATH = "$(LIB):..:$(CLASSPATH):;$(LIB);..;$(CLASSPATH)"
