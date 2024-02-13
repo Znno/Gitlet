@@ -3,7 +3,24 @@
 • A distributed version control system similar to Git, command line program made in Java, used SHA1 hashing, data structures and DAG (Directed Acyclic Graph) traversal techniques such as
  BFS(Breadth First Search) to get the LCA (latest common ancestor). Retained persistence of files by saving different versions of them in a hidden directory.
 and traverse the commits tree.
-##Methods
+## Dependencies
+1- Install Java : https://adoptium.net
+<br>
+2- Install Git :  http://git-scm.com/download/
+## How to run
+1- Download the repo and unzip it.
+<br>
+2- Open gitlet-master then open gitlet folder.
+<br>
+3- Open git bash and navigate to the path in step 3, use (cd ..) to go one directory to the back, (cd folder_name) to enter the specified folder and use (pwd) to know where you currently are. <ins>(NOTE:use the previous commands without the braces)</ins>
+<br>
+4- Compile the program by typing javac gitlet/*.java
+<br>
+5- Run the program by typing java gitlet.Main [THE COMMANDS GO HERE WITHOUT THE SQUARE BRACKETS EACH ARGUMENT SHOULD BE SEPARTED BY A SPACE OR CAPSULATE THE DESIRED ARGUMENT IN DOUBLE QUOTES]
+<br>
+6- Supported commands are listed below.
+<br>
+## Methods
 ### init 
 Creates a new Gitlet version-control system in the current directory. This system will automatically start with one commit: a commit that contains no files and has the commit message initial commit.
 ### add
