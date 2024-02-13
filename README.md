@@ -20,6 +20,14 @@ and traverse the commits tree.
 <br>
 6- Supported commands are listed below.
 <br>
+## Short demo:
+
+
+https://github.com/Znno/Gitlet/assets/145370386/57e333b4-578e-4871-a046-d391915fc1f7
+
+couldn't show all the cases and commands because it would take too long, you can try it yourself ISA everything will work fine.
+
+
 ## Methods
 ### init 
 Creates a new Gitlet version-control system in the current directory. This system will automatically start with one commit: a commit that contains no files and has the commit message initial commit.
