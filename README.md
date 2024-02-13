@@ -1,7 +1,7 @@
 # Gitlet
 ## Overview
 • A distributed version control system similar to Git, command line program made in Java, used SHA1 hashing, data structures and DAG (Directed Acyclic Graph) traversal techniques such as
- BFS(Breadth First Search) to get the LCA (latest common ancestor) and some graph traversal techniques. Retained persistence of files by saving different versions of them in a hidden directory.
+ BFS(Breadth First Search) to get the LCA (latest common ancestor). Retained persistence of files by saving different versions of them in a hidden directory.
 and traverse the commits tree.
 ##Methods
 ### init 
