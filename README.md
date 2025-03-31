@@ -59,3 +59,5 @@ Deletes the branch with the given name (This only means to delete the pointer as
 Checks out all the files tracked by the given commit. Removes tracked files that are not present in that commit. Also moves the current branch’s head to that commit node.
 ### merge
 Merges files from the given branch into the current branch.
+
+:)
